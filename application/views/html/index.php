@@ -224,7 +224,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                         <h4 class="title"><a href="">
-                                <?php echo isset($services_details['title3'])?$services_details['title1']:''; ?></a></h4>
+                                <?php echo isset($services_details['title3'])?$services_details['title3']:''; ?></a></h4>
                         <p>
                             <?php echo isset($services_details['paragraph3'])?$services_details['paragraph3']:''; ?>.</p>
                     </div>
@@ -307,6 +307,8 @@
         <?php } ?>-->
 
         <?php if(isset($testimonials_details) && count($testimonials_details)>0){ ?>
+		
+		<?php //echo '<pre>';print_r($testimonials_details);exit; ?>
         <section id="testimonials" class="section-bg wow fadeInUp">
             <div class="container">
 
@@ -452,8 +454,8 @@
                     <div class="col-lg-4 footer-contact">
                         <h4>Contact Us</h4>
                         <p>
-                            <strong>Phone:</strong>
-                            <?php echo isset($contactus_details['phone'])?$contactus_details['phone']:''; ?><br>
+                           <!-- <strong>Phone:</strong>
+                            <?php echo isset($contactus_details['phone'])?$contactus_details['phone']:''; ?><br>-->
                             <strong>Email:</strong>
                             <?php echo isset($contactus_details['email'])?$contactus_details['email']:''; ?><br>
                         </p>
@@ -481,7 +483,7 @@
             </div>
             <div class="credits">
 
-                Designed by <a href="https://prachatech.com/">prachatech</a>
+                Designed by <a target="_blank" href="https://prachatech.com/">prachatech</a>
             </div>
         </div>
     </footer><!-- #footer -->
