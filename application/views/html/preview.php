@@ -212,7 +212,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                             <h4 class="title"><a href="">
-                                    <?php echo isset($services_details['title3'])?$services_details['title1']:''; ?></a></h4>
+                                    <?php echo isset($services_details['title3'])?$services_details['title3']:''; ?></a></h4>
                             <p>
                                 <?php echo isset($services_details['paragraph3'])?$services_details['paragraph3']:''; ?>.</p>
                         </div>
@@ -303,7 +303,7 @@
 
                         <div class="owl-carousel testimonials-carousel">
                             <?php foreach($testimonials_details as $list){ ?>
-                            <input type="hidden" name="testimonials_id[]" id="testimonials_id" value="<?php echo isset($list['t_id'])?$list['t_id']:''; ?>">
+                            <!--<input type="hidden" name="testimonials_id[]" id="testimonials_id" value="<?php echo isset($list['t_id'])?$list['t_id']:''; ?>">-->
 
                             <div class="testimonial-item">
                                 <img src="<?php echo base_url('assets/testimonial/'.$list['image']); ?>" class="testimonial-img" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
