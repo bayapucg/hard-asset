@@ -91,7 +91,7 @@ CREATE TABLE `contactform` (
 
 /*Data for the table `contactform` */
 
-insert  into `contactform`(`c_id`,`contact_email`,`email`,`phone`,`address`,`twitter_link`,`facebook_link`,`instagram_link`,`google_plus`,`linkedIn_link`,`updated_at`,`homepage_preview`) values (1,'conatact@gmail.com','info@hardasset.com','1234567890','77 High Street\r\nHigh Street Plaza, Singapore 179433','www.twitter.com','www.facebook.com','www.instagram.com','www.gmail.com','www.linkedin.com','2018-11-15 12:30:00',1);
+insert  into `contactform`(`c_id`,`contact_email`,`email`,`phone`,`address`,`twitter_link`,`facebook_link`,`instagram_link`,`google_plus`,`linkedIn_link`,`updated_at`,`homepage_preview`) values (1,'hardassetag@gmail.com','hardassetag@gmail.com','1234567890','77 High Street\r\nHigh Street Plaza, Singapore 179433','www.twitter.com','www.facebook.com','www.instagram.com','www.gmail.com','www.linkedin.com','2018-11-15 15:38:25',1);
 
 /*Table structure for table `contactus` */
 
@@ -225,11 +225,11 @@ CREATE TABLE `testimonial` (
   `create_by` int(11) DEFAULT NULL,
   `homepage_preview` int(11) DEFAULT '0',
   PRIMARY KEY (`t_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 
 /*Data for the table `testimonial` */
 
-insert  into `testimonial`(`t_id`,`name`,`designation`,`paragraph`,`image`,`org_image`,`status`,`create_at`,`update_at`,`create_by`,`homepage_preview`) values (17,'Christian Claus','CEO','Mr. Claus started his career at Bankers Trust Company, Singapore. His last position was General Manager and Regional Head of its South East Asian operations. He was responsible for the Singapore branch operation and the strategic direction of the Bankers Trust global trading business in Asia.','0.506571001542264857user.jpg','user.jpg',1,'2018-11-15 12:24:17','2018-11-15 12:24:17',2,1),(18,'Jeremy Selby','Strategic Consultant','Part of international asset management group, in 2013 after working for 15 years in several senior roles based in London, New York and Singapore. Mark has more than 15 years of investment experience primarily in the areas of fixed income, currency management and interest rate trading.','0.521781001542265003user.jpg','user.jpg',1,'2018-11-15 12:26:43','2018-11-15 12:26:43',2,1),(19,'Alain Amon','FINANCIAL MANAGER','Past & current directorships include public companies & subsidiaries listed or operating in Australia, Singapore, Hong Kong, Bahrain & Kuwait across diverse sectors such as energy, construction, infrastructure, asset management, insurance & banking, payroll & HR outsourcing.','0.380511001542265088user.jpg','user.jpg',1,'2018-11-15 12:28:08','2018-11-15 12:28:08',2,1);
+insert  into `testimonial`(`t_id`,`name`,`designation`,`paragraph`,`image`,`org_image`,`status`,`create_at`,`update_at`,`create_by`,`homepage_preview`) values (17,'Christian Claus','CEO','Mr. Claus started his career at Bankers Trust Company, Singapore. His last position was General Manager and Regional Head of its South East Asian operations. He was responsible for the Singapore branch operation and the strategic direction of the Bankers Trust global trading business in Asia.','0.506571001542264857user.jpg','user.jpg',1,'2018-11-15 12:24:17','2018-11-15 12:24:17',2,1),(18,'Jeremy Selby','Strategic Consultant','Part of international asset management group, in 2013 after working for 15 years in several senior roles based in London, New York and Singapore. Mark has more than 15 years of investment experience primarily in the areas of fixed income, currency management and interest rate trading.','0.521781001542265003user.jpg','user.jpg',1,'2018-11-15 12:26:43','2018-11-15 12:26:43',2,1),(19,'Alain Amon','FINANCIAL MANAGER','Past & current directorships include public companies & subsidiaries listed or operating in Australia, Singapore, Hong Kong, Bahrain & Kuwait across diverse sectors such as energy, construction, infrastructure, asset management, insurance & banking, payroll & HR outsourcing.','0.380511001542265088user.jpg','user.jpg',1,'2018-11-15 12:28:08','2018-11-15 12:28:08',2,1),(20,'Eithan Nazarian','INTERNATIONAL BROKER','Eithan Nazarian was Chairman of the Investment Management association of Singapore from 2006-2013. Nathan served as a non-executive director and adviser to several private investment companies in New Zealand and in Asia.','0.956868001542277337user.jpg','user.jpg',1,'2018-11-15 15:52:17','2018-11-15 15:52:17',2,1);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
