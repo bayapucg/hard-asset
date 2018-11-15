@@ -445,7 +445,7 @@
                             <li><i class="ion-ios-arrow-right"></i> <a href="#intro">Home</a></li>
                             <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
                             <li><i class="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="#portfolio">Gallery</a></li>
+                            <li><i class="ion-ios-arrow-right"></i> <a href="#testimonials">Team</a></li>
                         </ul>
                     </div>
 
