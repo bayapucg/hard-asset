@@ -54,7 +54,7 @@
                     <li class="menu-active"><a href="#intro">Home</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Gallery</a></li>
+                    <li><a href="#testimonials">Team</a></li>
 
 
                     <li><a href="#contact">Contact</a></li>
@@ -143,7 +143,7 @@
                                     <img src="<?php echo base_url('assets/aboutus/'.$aboutus_details['image1']); ?>" alt="<?php echo isset($aboutus_details['image1'])?$aboutus_details['image1']:''; ?>" class="img-fluid">
                                     <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                                 </div>
-                                <h2 class="title"><a href="#">Our Mission</a></h2>
+                                <h2 class="title"><a href="#">Equities</a></h2>
                                 <p>
                                     <?php echo isset($aboutus_details['paragraph1'])?$aboutus_details['paragraph1']:''; ?>.
                                 </p>
@@ -156,7 +156,7 @@
                                     <img src="<?php echo base_url('assets/aboutus/'.$aboutus_details['image2']); ?>" alt="<?php echo isset($aboutus_details['image2'])?$aboutus_details['image2']:''; ?>" class="img-fluid">
                                     <div class="icon"><i class="ion-ios-list-outline"></i></div>
                                 </div>
-                                <h2 class="title"><a href="#">Our Plan</a></h2>
+                                <h2 class="title"><a href="#">Multi-asset</a></h2>
                                 <p>
                                     <?php echo isset($aboutus_details['paragraph2'])?$aboutus_details['paragraph2']:''; ?>.
                                 </p>
@@ -169,7 +169,7 @@
                                     <img src="<?php echo base_url('assets/aboutus/'.$aboutus_details['image3']); ?>" alt="<?php echo isset($aboutus_details['image3'])?$aboutus_details['image3']:''; ?>" class="img-fluid">
                                     <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                                 </div>
-                                <h2 class="title"><a href="#">Our Vision</a></h2>
+                                <h2 class="title"><a href="#">Fixed income</a></h2>
                                 <p>
                                     <?php echo isset($aboutus_details['paragraph3'])?$aboutus_details['paragraph3']:''; ?>.
                                 </p>
@@ -247,13 +247,13 @@
     ============================-->
                 <section id="call-to-action" class="wow fadeIn">
                 <div class="container text-center">
-                    <h3>Call To Action</h3>
+                    <h3>Mail To Action</h3>
                     <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a class="cta-btn" href="#contact">Call To Action</a>
+                    <a class="cta-btn" href="#contact">Mail To Action</a>
                 </div>
                 </section><!-- #call-to-action -->
 
-                <?php if(isset($gallery_details) && count($gallery_details)>0){ ?>
+             <!--   <?php if(isset($gallery_details) && count($gallery_details)>0){ ?>
 
                 <section id="portfolio" class="section-bg">
                     <div class="container">
@@ -339,7 +339,7 @@
 
                         <div class="row contact-info">
 
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="contact-address">
                                     <i class="ion-ios-location-outline"></i>
                                     <h3>Address</h3>
@@ -348,16 +348,16 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
+                            <!--<div class="col-md-4">
                                 <div class="contact-phone">
                                     <i class="ion-ios-telephone-outline"></i>
                                     <h3>Phone Number</h3>
                                     <p><a href="tel:+155895548855">
                                             <?php echo isset($contactus_details['phone'])?$contactus_details['phone']:''; ?></a></p>
                                 </div>
-                            </div>
+                            </div>-->
 
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="contact-email">
                                     <i class="ion-ios-email-outline"></i>
                                     <h3>Email</h3>
@@ -426,7 +426,7 @@
                                 <li><i class="ion-ios-arrow-right"></i> <a href="#intro">Home</a></li>
                                 <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
                                 <li><i class="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
-                                <li><i class="ion-ios-arrow-right"></i> <a href="#portfolio">Gallery</a></li>
+                                <li><i class="ion-ios-arrow-right"></i> <a href="#testimonials">Team</a></li>
                             </ul>
                         </div>
 

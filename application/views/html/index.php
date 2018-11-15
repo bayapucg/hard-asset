@@ -355,7 +355,7 @@
 
                 <div class="row contact-info">
 
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="contact-address">
                             <i class="ion-ios-location-outline"></i>
                             <h3>Address</h3>
@@ -364,16 +364,16 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <!--<div class="col-md-4">
                         <div class="contact-phone">
                             <i class="ion-ios-telephone-outline"></i>
                             <h3>Phone Number</h3>
                             <p><a href="tel:+155895548855">
                                     <?php echo isset($contactus_details['phone'])?$contactus_details['phone']:''; ?></a></p>
                         </div>
-                    </div>
+                    </div>-->
 
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="contact-email">
                             <i class="ion-ios-email-outline"></i>
                             <h3>Email</h3>
