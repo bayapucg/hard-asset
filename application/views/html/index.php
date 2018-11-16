@@ -483,7 +483,7 @@
             </div>
             <div class="credits">
 
-                Designed by <a target="_blank" href="https://prachatech.com/">prachatech</a>
+                Designed by <a target="_blank" href="http://prachatech.com/">prachatech</a>
             </div>
         </div>
     </footer><!-- #footer -->
