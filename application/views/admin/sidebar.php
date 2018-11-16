@@ -32,7 +32,7 @@
 
                     </ul>
                 </li>
-                <li class="submenu">
+                <!--<li class="submenu">
                     <a href="#" class=""><span> Gallery </span> <span class="menu-arrow"></span></a>
                     <ul class="list-unstyled" style="display: none;">
 
@@ -40,13 +40,13 @@
                         <li><a href="<?php echo base_url('gallery/lists'); ?>">Gallery List</a></li>
 
                     </ul>
-                </li>
+                </li>-->
                 <li class="submenu">
-                    <a href="#" class=""><span> Testimonial </span> <span class="menu-arrow"></span></a>
+                    <a href="#" class=""><span> Team </span> <span class="menu-arrow"></span></a>
                     <ul class="list-unstyled" style="display: none;">
 
-                        <li><a href="<?php echo base_url('testimonial'); ?>">Testimonial</a></li>
-                        <li><a href="<?php echo base_url('testimonial/lists'); ?>">Testimonial List</a></li>
+                        <li><a href="<?php echo base_url('testimonial'); ?>">Team</a></li>
+                        <li><a href="<?php echo base_url('testimonial/lists'); ?>">Team List</a></li>
 
                     </ul>
                 </li>
