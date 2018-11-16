@@ -1,6 +1,6 @@
 /*
 SQLyog Community v11.52 (64 bit)
-MySQL - 10.1.36-MariaDB : Database - hard_assets
+MySQL - 10.1.32-MariaDB : Database - hard_assets
 *********************************************************************
 */
 

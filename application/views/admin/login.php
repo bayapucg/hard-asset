@@ -19,9 +19,7 @@
 				<div class="container">
 					<h3 class="account-title" style="color:#fff;">Login</h3>
 					<div class="account-box">
-					<div class="account-logo bg-primary py-5" style="margin-bottom:0px">
-								<a href=""><img src="<?php echo base_url(); ?>assets/vendor/img/logo.png" alt="Logo"></a>
-							</div>
+					
 						<div class="account-wrapper" >
 							
 							<form id="defaultForm" name="defaultForm" method="post" class="" action="<?php echo base_url('admin/post'); ?>">
