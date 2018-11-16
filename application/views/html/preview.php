@@ -248,7 +248,7 @@
                 <section id="call-to-action" class="wow fadeIn">
                 <div class="container text-center">
                     <h3>Mail To Action</h3>
-                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>At Hard Assets AG, our investment philosophy is grounded in the belief that while markets are efficient in the long term, there exist inefficiencies in the short to medium term, where we can identify investment opportunities.Please let me mail if you need any further assistance</p>
                     <a class="cta-btn" href="#contact">Mail To Action</a>
                 </div>
                 </section><!-- #call-to-action -->
@@ -458,10 +458,7 @@
                             &copy; Copyright <strong>
                                 <?php echo isset($logo_details['title'])?$logo_details['title']:'Pracha Multi'; ?></strong>. All Rights Reserved
                         </div>
-                        <div class="credits">
-
-                            Designed by <a href="https://prachatech.com/">prachatech</a>
-                        </div>
+                      
                     </div>
                     <div class="col-md-2">
                         <button type="submit" class="btn btn-success" style="margin-top:40px;">Preview Ok</button>
