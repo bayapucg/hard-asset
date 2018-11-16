@@ -260,7 +260,7 @@
         <section id="call-to-action" class="wow fadeIn">
             <div class="container text-center">
                 <h3>Mail To Action</h3>
-                <p>At Hard Assets AG, our investment philosophy is grounded in the belief that while markets are efficient in the long term, there exist inefficiencies in the short to medium term, where we can identify investment opportunities.Please let me mail if you need any further assistance</p>
+                <p>At Hard Assets AG, our investment philosophy is grounded in the belief that while markets are efficient in the long term, there exist inefficiencies in the short to medium term, where we can identify investment opportunities. Please  mail us if you have any further assistance</p>
                 <a class="cta-btn" href="#contact">Mail To Action</a>
             </div>
         </section><!-- #call-to-action -->
