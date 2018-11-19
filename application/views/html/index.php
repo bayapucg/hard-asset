@@ -257,13 +257,7 @@
         <!--==========================
       Call To Action Section
     ============================-->
-        <section id="call-to-action" class="wow fadeIn">
-            <div class="container text-center">
-                <h3>Mail To Action</h3>
-                <p>At Hard Assets AG, our investment philosophy is grounded in the belief that while markets are efficient in the long term, there exist inefficiencies in the short to medium term, where we can identify investment opportunities. Please  mail us if you have any further assistance</p>
-                <a class="cta-btn" href="#contact">Mail To Action</a>
-            </div>
-        </section><!-- #call-to-action -->
+        <!-- #call-to-action -->
 
 
        <!-- <?php if(isset($gallery_details) && count($gallery_details)>0){ ?>
@@ -352,7 +346,7 @@
 
                 <div class="section-header">
                     <h3>Contact Us</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                    <p>We are happy to serve you. Please reach out to us below.</p>
                 </div>
 
                 <div class="row contact-info">
@@ -460,13 +454,7 @@
                             <?php echo isset($contactus_details['email'])?$contactus_details['email']:''; ?><br>
                         </p>
 
-                        <div class="social-links">
-                            <a href="<?php echo isset($contactus_details['twitter_link'])?$contactus_details['twitter_link']:'#'; ?>" target="_balnk" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="<?php echo isset($contactus_details['facebook_link'])?$contactus_details['facebook_link']:'#'; ?>" target="_balnk" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="<?php echo isset($contactus_details['instagram_link'])?$contactus_details['instagram_link']:'#'; ?>" target="_balnk" class="instagram"><i class="fa fa-instagram"></i></a>
-                            <a href="<?php echo isset($contactus_details['google_plus'])?$contactus_details['google_plus']:'#'; ?>" target="_balnk" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                            <a href="<?php echo isset($contactus_details['linkedIn_link'])?$contactus_details['linkedIn_link']:'#'; ?>" target="_balnk" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                        </div>
+                        
 
                     </div>
 

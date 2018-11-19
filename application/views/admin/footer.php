@@ -216,7 +216,7 @@
             display: none;
         }
     </style>   
-    <button class="btn btn-primary" id="chat_btn">
+   <!-- <button class="btn btn-primary" id="chat_btn">
         <i class="fa fa-comment"></i> Chat
     </button>
     <div class="chat_box">
@@ -249,7 +249,7 @@
                 </div>
             </li>
         </div>
-    </div>
+    </div>-->
     <script>
     $(document).ready(function(){
         $(".chat_box").hide();

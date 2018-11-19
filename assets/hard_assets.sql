@@ -1,6 +1,6 @@
 /*
 SQLyog Community v11.52 (64 bit)
-MySQL - 10.1.32-MariaDB : Database - hard_assets
+MySQL - 10.1.32-MariaDB : Database - kaciff
 *********************************************************************
 */
 
@@ -12,9 +12,9 @@ MySQL - 10.1.32-MariaDB : Database - hard_assets
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`hard_assets` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`kaciff` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
-USE `hard_assets`;
+USE `kaciff`;
 
 /*Table structure for table `aboutus` */
 
@@ -39,7 +39,7 @@ CREATE TABLE `aboutus` (
 
 /*Data for the table `aboutus` */
 
-insert  into `aboutus`(`a_id`,`image1`,`image2`,`image3`,`parahraph`,`paragraph1`,`paragraph2`,`paragraph3`,`status`,`created_at`,`updated_at`,`created_by`,`homepage_preview`) values (1,'0.00725600 1542266104','0.33481700 1542269364','0.88253500 1542269058','At Hard Assets AG, our investment philosophy is grounded in the belief that while markets are efficient in the long term, there exist inefficiencies in the short to medium term, where we can identify investment opportunities. Through active management, we leverage these opportunities to create value for our clients. We believe a diversity of investment perspectives is key to achieving superior risk-adjusted returns over the long term. These perspectives are always grounded in rigorous fundamental-driven research, as well as in-depth market and sector understanding.','Our equities team seek to identify growth stocks that have been mispriced as a result of short-term market inefficiencies. As Growth at a Reasonable Price (GARP) investors, we believe that earnings growth is the long-term driver of stock price performance. However, it is important not to over-pay for such growth in order to achieve optimal performance.','The Multi-Asset team is tasked to stay on top of global macro and market trends, and to assess implications for policies and investment strategy. With a dedicated strategy and currency function, we strive to be insightful and disciplined, and contribute our views to Crown\'s Investment Committee.','Crown\'s fixed income team believes that market inefficiencies in the short term provide opportunities to add value through active management. We adopt a disciplined investment approach, grounded in fundamental and qualitative analysis, and supported by a systematic quantitative investment framework',1,'2018-11-15 13:39:24','2018-11-15 13:39:24',2,1);
+insert  into `aboutus`(`a_id`,`image1`,`image2`,`image3`,`parahraph`,`paragraph1`,`paragraph2`,`paragraph3`,`status`,`created_at`,`updated_at`,`created_by`,`homepage_preview`) values (1,'0.47145800 1540547045','0.08588500 1540546013','0.08808100 1540546013','CHAMBAL is not only a flow but also it is a flow of various views. A story of rebellion and scarifies.\r\nBecause of this trend only the Britishers had tough challenges during Indian freedom movement in\r\nthe areas of Chambal. During Emergency also Chambal was barely affected. The rebellion acts\r\nagainst individual torture and injustice was always on prime move in Chambal. Opting the tribal zone\r\nwith gun become the phrase in Chambal as to neutralize the impact against those shrewd people who\r\nwere being given shelter by the Government, politician and the police. Famous as ‘Nursery of\r\nSoldiers’, Chambal has been credited the maximum numbers of people joining the army and various\r\nother armed forces. During peace time also even a single soldier is brought rapped under Indian flag\r\nfrom the border itself in any of the one villages of this areas.\r\n\r\nChambal is also a mine of archaeological civilization. In each and every corner of this rugged area,\r\nthe memories of hundred years of the history are found silently.\r\n\r\nLegendary film director K Asif had only three films in his credit. One was incomplete, even though he\r\nis considered as milestone. He was born in this area in Etawah but was never remembered by the\r\npeople over here. This film festival in memory of K Asif is a small way of remembering the legend.','Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat','Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ','Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.',1,'2018-11-15 12:43:02','2018-11-15 12:43:02',2,1);
 
 /*Table structure for table `admin` */
 
@@ -91,7 +91,7 @@ CREATE TABLE `contactform` (
 
 /*Data for the table `contactform` */
 
-insert  into `contactform`(`c_id`,`contact_email`,`email`,`phone`,`address`,`twitter_link`,`facebook_link`,`instagram_link`,`google_plus`,`linkedIn_link`,`updated_at`,`homepage_preview`) values (1,'hardassetag@gmail.com','hardassetag@gmail.com','1234567890','77 High Street\r\nHigh Street Plaza, Singapore 179433','www.twitter.com','www.facebook.com','www.instagram.com','www.gmail.com','www.linkedin.com','2018-11-15 15:38:25',1);
+insert  into `contactform`(`c_id`,`contact_email`,`email`,`phone`,`address`,`twitter_link`,`facebook_link`,`instagram_link`,`google_plus`,`linkedIn_link`,`updated_at`,`homepage_preview`) values (1,'kaciff.org@gmail.com','kaciff.org@gmail.com','9411663672','Chambal Archives 40 New colony, chaugurji, Etawah- 206001 (U.P.)\r\nIndia','www.twitter.com','www.facebook.com','www.instagram.com','www.gmail.com','www.linkedin.com','2018-11-15 16:14:17',1);
 
 /*Table structure for table `contactus` */
 
@@ -126,11 +126,11 @@ CREATE TABLE `gallery` (
   `create_by` int(11) DEFAULT NULL,
   `homepage_preview` int(11) DEFAULT '0',
   PRIMARY KEY (`g_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
 
 /*Data for the table `gallery` */
 
-insert  into `gallery`(`g_id`,`image`,`text`,`org_image`,`status`,`create_at`,`update_at`,`create_by`,`homepage_preview`) values (2,'0.457717001540548521app2.jpg','text1','app2.jpg',1,'2018-10-26 15:38:41','2018-10-26 15:38:41',2,1),(3,'0.496099001540548521app3.jpg','text2','app3.jpg',1,'2018-10-26 15:38:41','2018-10-26 15:38:41',2,1),(4,'0.546385001540548521card1.jpg','text3','card1.jpg',1,'2018-10-26 15:38:41','2018-10-26 15:38:41',2,1),(5,'0.879673001540548777app1.jpg','Third Slider Text','app1.jpg',1,'2018-10-26 15:42:57','2018-10-26 15:42:57',2,1),(6,'0.935455001540548777card3.jpg','Third Slider Text','card3.jpg',1,'2018-10-26 15:42:57','2018-10-26 15:42:57',2,1);
+insert  into `gallery`(`g_id`,`image`,`text`,`org_image`,`status`,`create_at`,`update_at`,`create_by`,`homepage_preview`) values (7,'0.6680950015422631491.jpg','Image1','1.jpg',1,'2018-11-15 11:55:49','2018-11-15 11:55:49',2,1),(8,'0.7544880015422631494.jpg','Image2','4.jpg',1,'2018-11-15 11:55:49','2018-11-15 11:55:49',2,1),(10,'0.86111500154226314911.jpg','Image4','11.jpg',1,'2018-11-15 11:55:49','2018-11-15 11:55:49',2,1),(11,'0.94337900154226314922.jpg','Image5','22.jpg',1,'2018-11-15 11:55:49','2018-11-15 11:55:49',2,1),(12,'0.00562500154226315068.jpg','Image6','68.jpg',1,'2018-11-15 11:55:50','2018-11-15 11:55:50',2,1),(13,'0.38560600154226343315.jpg','Image3','15.jpg',1,'2018-11-15 12:00:33','2018-11-15 12:00:33',2,1),(14,'0.7978360015422654236.png','Image7','6.png',1,'2018-11-15 12:33:43','2018-11-15 12:33:43',2,1),(15,'0.9421570015422654234(1).jpg','Image8','4 (1).jpg',1,'2018-11-15 12:33:43','2018-11-15 12:33:43',2,1),(16,'0.0769790015422654247.jpg','Image9','7.jpg',1,'2018-11-15 12:33:44','2018-11-15 12:33:44',2,1),(17,'0.1310030015422654248.png','Image10','8.png',1,'2018-11-15 12:33:44','2018-11-15 12:33:44',2,1),(20,'0.90375100154226582010.jpg','Image3','10.jpg',1,'2018-11-15 12:40:20','2018-11-15 12:40:20',2,1),(23,'0.6264410015422789881(1).jpg','Gallery','1 (1).jpg',1,'2018-11-15 16:19:48','2018-11-15 16:19:48',2,1);
 
 /*Table structure for table `logo` */
 
@@ -154,7 +154,7 @@ CREATE TABLE `logo` (
 
 /*Data for the table `logo` */
 
-insert  into `logo`(`id`,`image`,`keywords`,`description`,`org_image`,`favicon`,`status`,`title`,`create_at`,`update_at`,`create_by`,`homepage_preview`) values (1,'1542261777.png','keyword','Hard Assets AG is a Singapore-based asset management firm and Capital Markets Services (CMS) licence holder that manages a series of funds across asset classes, including real estate, technology and prime currency.','pnglogo.png','21542261777.png',1,'Hard Assets AG','2018-11-15 11:32:57','2018-11-15 11:32:57',2,1);
+insert  into `logo`(`id`,`image`,`keywords`,`description`,`org_image`,`favicon`,`status`,`title`,`create_at`,`update_at`,`create_by`,`homepage_preview`) values (1,'1542277055.png','keyword','des','logok.png','21542277055.png',1,'Kaciff','2018-11-15 15:47:35','2018-11-15 15:47:35',2,1);
 
 /*Table structure for table `services` */
 
@@ -185,7 +185,7 @@ CREATE TABLE `services` (
 
 /*Data for the table `services` */
 
-insert  into `services`(`s_id`,`paragraph`,`paragraph1`,`paragraph2`,`paragraph3`,`paragraph4`,`paragraph5`,`paragraph6`,`title1`,`title2`,`title3`,`title4`,`title5`,`title6`,`status`,`created_at`,`updated_at`,`created_by`,`homepage_preview`) values (1,'Our portfolio of mostly equities means a higher year to year volatility of annual returns, including a higher risk of negative returns in any one year. The higher risk of negative returns in some years comes with an expectation of higher returns over the long term.','As an owner investor, we maintain full flexibility to deploy capital across listed and unlisted assets, and to adopt a long investment horizon. We track and manage risks proactively and throughout market cycles.','We do not have limits or targets for asset class, country, sector, theme or single name concentration. We manage our leverage and liquidity conservatively for resilience and flexibility, even in times of extreme stress.','Our managers’ in-depth knowledge, familiarity with their respective markets and frequent interaction with other asset teams, also give us an edge in crafting superior credit strategies for our clients.','We believe that this top down-bottom up investment approach provides the best opportunities for achieving superior risk-adjusted returns over the long term.','We asses the macroeconomic environment and incorporate market expectations and investor positioning. We then evaluate risk versus return trade-offs.','As an owner, we have full flexibility to reshape and rebalance our portfolio, whenever opportunities or challenges arise. We can take concentrated positions or remain in cash.','The Proposal','The Outcome','Appraisal','Market Analysis','Individual Treatment','Personal Meeting',1,'2018-11-15 11:46:04','2018-11-15 11:46:04',2,1);
+insert  into `services`(`s_id`,`paragraph`,`paragraph1`,`paragraph2`,`paragraph3`,`paragraph4`,`paragraph5`,`paragraph6`,`title1`,`title2`,`title3`,`title4`,`title5`,`title6`,`status`,`created_at`,`updated_at`,`created_by`,`homepage_preview`) values (1,'Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.','Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident','Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata','Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur','Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum','At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque','Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi','Lorem Ipsum','Dolor Sitema','Sed ut perspiciatis','Magni Dolores','Nemo Enim','Eiusmod Tempor',1,'2018-10-26 16:19:15','2018-10-26 16:19:15',2,1);
 
 /*Table structure for table `slider` */
 
@@ -202,11 +202,11 @@ CREATE TABLE `slider` (
   `created_by` int(11) DEFAULT NULL,
   `homepage_preview` int(11) DEFAULT '0',
   PRIMARY KEY (`s_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=latin1;
 
 /*Data for the table `slider` */
 
-insert  into `slider`(`s_id`,`text`,`image`,`org_image`,`status`,`created_at`,`updated_at`,`created_by`,`homepage_preview`) values (20,'We serve clients.','0.111105001542264403hero4.jpg','hero4.jpg',1,'2018-11-15 12:16:43','2018-11-15 12:16:43',2,1),(21,'Development Fund','0.183011001542264403hero2.jpg','hero2.jpg',1,'2018-11-15 12:16:43','2018-11-15 12:16:43',2,1),(22,'We value, Education','0.238547001542264403political-1.jpg','political-1.jpg',1,'2018-11-15 12:16:43','2018-11-15 12:16:43',2,1);
+insert  into `slider`(`s_id`,`text`,`image`,`org_image`,`status`,`created_at`,`updated_at`,`created_by`,`homepage_preview`) values (28,'         ','0.715910001542268008image.jpg','image.jpg',1,'2018-11-15 13:16:48','2018-11-15 13:16:48',2,1),(29,'           ','0.173448001542268043KACIFFHindi.jpg','KACIFF Hindi.jpg',1,'2018-11-15 13:17:23','2018-11-15 13:17:23',2,1);
 
 /*Table structure for table `testimonial` */
 
@@ -225,11 +225,11 @@ CREATE TABLE `testimonial` (
   `create_by` int(11) DEFAULT NULL,
   `homepage_preview` int(11) DEFAULT '0',
   PRIMARY KEY (`t_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 /*Data for the table `testimonial` */
 
-insert  into `testimonial`(`t_id`,`name`,`designation`,`paragraph`,`image`,`org_image`,`status`,`create_at`,`update_at`,`create_by`,`homepage_preview`) values (17,'Christian Claus','CEO','Mr. Claus started his career at Bankers Trust Company, Singapore. His last position was General Manager and Regional Head of its South East Asian operations. He was responsible for the Singapore branch operation and the strategic direction of the Bankers Trust global trading business in Asia.','0.506571001542264857user.jpg','user.jpg',1,'2018-11-15 12:24:17','2018-11-15 12:24:17',2,1),(18,'Jeremy Selby','Strategic Consultant','Part of international asset management group, in 2013 after working for 15 years in several senior roles based in London, New York and Singapore. Mark has more than 15 years of investment experience primarily in the areas of fixed income, currency management and interest rate trading.','0.521781001542265003user.jpg','user.jpg',1,'2018-11-15 12:26:43','2018-11-15 12:26:43',2,1),(19,'Alain Amon','FINANCIAL MANAGER','Past & current directorships include public companies & subsidiaries listed or operating in Australia, Singapore, Hong Kong, Bahrain & Kuwait across diverse sectors such as energy, construction, infrastructure, asset management, insurance & banking, payroll & HR outsourcing.','0.380511001542265088user.jpg','user.jpg',1,'2018-11-15 12:28:08','2018-11-15 12:28:08',2,1),(20,'Eithan Nazarian','INTERNATIONAL BROKER','Eithan Nazarian was Chairman of the Investment Management association of Singapore from 2006-2013. Nathan served as a non-executive director and adviser to several private investment companies in New Zealand and in Asia.','0.956868001542277337user.jpg','user.jpg',1,'2018-11-15 15:52:17','2018-11-15 15:52:17',2,1);
+insert  into `testimonial`(`t_id`,`name`,`designation`,`paragraph`,`image`,`org_image`,`status`,`create_at`,`update_at`,`create_by`,`homepage_preview`) values (7,'Dr. Ghazal Srinivas (Kesiraju Srinivas)','Singer','Ghazal Srinivas created Three Guinness World Records consecutively in the years 2008, 2009 and\r\n2010. He is the only singer who sang 125 songs in 125 Global languages which have become two\r\nGuinness world Records\r\nApart from his Ghazal singing in the year 1999, Srinivas played a lead role in the telugu film\r\n“Vichitram” directed by Sri Jandhyala, following which , he has also performed a Special role in the\r\nsuper Hit Telugu film ” A Film By Arrvind” directed by Sekhar Suri.','0.827864001542262200Dr.GhazalSrinivas.jpg','Dr. Ghazal Srinivas.jpg',1,'2018-11-15 11:40:00','2018-11-15 11:40:00',2,1),(9,'Rakeshrenu','Author','Born on August 17 on the day of ‘Nag Panchami’, Rakeshrenu is a MBA, M.Com. and a PG Diploma\r\nin Journalism.\r\nAs an author, poet and thinker his published work includes the books such as ‘Rojnamcha’ (Poetry\r\nAnthology), ‘Samkaleen Hindi Kahaniyaan’, ‘Samkaleen Maithili Sahitya’ and ’Yadon Ke Jharokhe’.\r\nHis articles, poems, reviews are being published various National level news papers &amp; magazines.\r\nRakeshrenu has worked in All India Radio and Doordarshan in various administrative positions.\r\nPresently he is Chief Editor to the monthly literary magazine ‘AajKal’ and Dy Director inn\r\nPublication Division, Ministry of Information &amp; Broadcasting, Government of India.','0.960872001542262627Rakeshrenu.jpg','Rakeshrenu.jpg',1,'2018-11-15 11:47:07','2018-11-15 11:47:07',2,1),(10,'Shah Alam','Traveller Journalist','Post Graduated from Dr RML Avadh University, Faizabad. Done higher education from Jamia\r\nCentral University, New Delhi.\r\nSince one &amp; half decades Shah Alam is working as Traveller Journalist. Having keen interest in\r\nIndian revolutionary movements Shah founded ‘Awam Ka Cinema’ in 2006. Through this he get\r\ninvolved &amp; informed the new generations about the legacy of revolutionaries.\r\nShah Alam is also known for his long 2800 Kms journey by cycle for the research on ‘Matrivedi’. He\r\nhas also produced-directed many documentary films simply by traveling half a dozen long journey by\r\nfoot.\r\nPresently Shah Alam is busy in crafting ‘Chambal Archives’ and ‘Chambal People’s parliament’ in its\r\nfull volume.','0.759490001542262760ShahAlam.png','Shah Alam.png',1,'2018-11-15 11:49:20','2018-11-15 11:49:20',2,1),(11,'Dr. Raajeev Shrivaastav','Writer, Anchor','A Top notch Professional involve in to Publication, Broadcasting &amp; Film Production. Visiting Faculty\r\n(HR, Literature, Media, Films &amp; Music). Feature writer, Anchor for different fields viz Media : Print\r\n&amp; Electronics, Entertainment, events &amp; vice versa.\r\nBorn on September 03rd on the day of ‘Shri Ganesh Chaturthi’ Dr Raajeev Shrivaastav do have many\r\nbooks in his credit including biography of legendary singer Mukesh and music director Kalyanji-\r\nAnanndji. Also film on the work &amp; life of legendary playback singer Shamshaad Begum, singer\r\nMukesh, legendary Jay Prakash Narayan and a film on river Ganga based on pollution issue.\r\nHis appearance on Radio &amp; TV as Guest Speaker / Expert on various subjects including Films, Music,\r\nLiterature and Social issues is remarkable.','0.429185001542262862Dr.RaajeevShrivaastav.jpg','Dr. Raajeev Shrivaastav.jpg',1,'2018-11-15 11:51:02','2018-11-15 11:51:02',2,1);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

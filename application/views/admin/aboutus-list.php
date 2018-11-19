@@ -32,7 +32,7 @@
 
                                 <tr>
                                     <th>
-                                        Our Mission
+                                        Equities
                                     </th>
 
                                     <td><img class="img-responsive" src="<?php echo base_url('assets/aboutus/'.$aboutus_list['image1']); ?>" alt="<?php echo isset($aboutus_list['image1'])?$aboutus_list['image1']:''; ?>" style="height:50px;width:auto;"></td>
@@ -45,7 +45,7 @@
                                 </tr>
                                 <tr>
                                     <th>
-                                        Our Plan
+                                        Multi-asset
                                     </th>
 
                                     <td><img class="img-responsive" src="<?php echo base_url('assets/aboutus/'.$aboutus_list['image2']); ?>" alt="<?php echo isset($aboutus_list['image2'])?$aboutus_list['image2']:''; ?>" style="height:50px;width:auto;"></td>
@@ -58,7 +58,7 @@
                                 </tr>
                                 <tr>
                                     <th>
-                                        Our Vision
+                                        Fixed income
                                     </th>
 
                                     <td><img class="img-responsive" src="<?php echo base_url('assets/aboutus/'.$aboutus_list['image3']); ?>" alt="<?php echo isset($aboutus_list['image3'])?$aboutus_list['image3']:''; ?>" style="height:50px;width:auto;"></td>
