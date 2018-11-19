@@ -1,23 +1,5 @@
-<div class="page-wrapper">
-    <div class="content container-fluid">
-        <div class="row">
-            <div class="col-sm-8">
-                <h4 class="page-title">Edit Profile</h4>
-            </div>
-        </div>
-        <form id="defaultForm" name="defaultForm" method="post" action="<?php echo base_url('profile/editpost'); ?>" enctype="multipart/form-data">
-            <div class="card-box">
-                <h3 class="card-title">Basic Informations</h3>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="profile-img-wrap">
-                            <?php if($details['profile_pic']==''){ ?>
-                            <img class="inline-block" src="<?php echo base_url(); ?>assets/vendor/admin/img/user.jpg" alt="">
-                            <?php }else{ ?>
-                            <img class="inline-block" src="<?php echo base_url('assets/profile_pic/'.$details['profile_pic']); ?>" alt="<?php echo isset($details['profile_pic'])?$details['profile_pic']:''; ?>">
-                            <?php } ?>
 
-<<<<<<< HEAD
+
              <div class="page-wrapper">
                 <div class="content container-fluid">
 					<div class="row">

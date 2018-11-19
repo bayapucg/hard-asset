@@ -28,9 +28,9 @@
                                             <?php echo isset($details['name'])?$details['name']:''; ?>
                                         </h3>
                                         <small class="text-muted">Admin</small>
-                                        <div class="staff-id">Employee ID :
+                                       <!-- <div class="staff-id">Employee ID :
                                             <?php echo isset($details['id'])?$details['id']:''; ?>
-                                        </div>
+                                        </div>-->
 
                                     </div>
                                 </div>
